@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color11">#F7F2B2</color>
+    <color name="color7">#ADCF4F</color>
+    <color name="color8">#84815B</color>
+    <color name="color9">#4A1A2C</color>
+    <color name="color0">#8E3557</color>
+    <color name="color1">#DC3522</color>
+    <color name="color2">#D9CB9E</color>
+    <color name="color3">#374140</color>
+    <color name="color4">#2A2C2B</color>
+    <color name="color5">#1E1E20</color>
+    <color name="color6">#e0d3ab</color>
+
+</resources>

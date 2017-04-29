@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="pl.fancycode.speedometer.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/speed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-10sp"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="150dp" />
+
+        <TextView
+            android:id="@+id/unit_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km/h"
+            android:textColor="@android:color/secondary_text_dark"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="0 m"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signal_tv"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="@string/signal_acc"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_marginBottom="0sp"
+        android:layout_marginLeft="10sp"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prędkościomierz</string>
+    <string name="signal_acc">Dokładność sygnału: </string>
+    <string name="menu_unit">Wybierz jednostkę</string>
+    <string name="units">Jednostki</string>
+    
+</resources>
