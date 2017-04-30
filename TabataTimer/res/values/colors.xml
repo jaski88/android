@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="bg_workout">#FFC0A9</color>
+    <color name="fg_workout">#FF8598</color>
+    <color name="bg_pause">#C9D787</color>
+    <color name="fg_pause">#7D8A2E</color>
+    <color name="bg_prep">#3498DB</color>
+    <color name="fg_prep">#2980B9</color>
+
+</resources>

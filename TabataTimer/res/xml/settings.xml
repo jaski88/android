@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Workout settings" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="workout_time"
+            android:defaultValue="10"
+            android:summary="Current value:"
+            android:title="Workout time" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pause_time"
+            android:defaultValue="10"
+            android:summary="Current value:"
+            android:title="Pause time" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="rounds_count"
+            android:defaultValue="6"
+            android:summary="Current value:"
+            android:title="Rounds" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="General settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="history_enabled"
+            android:summary="Add finished workout to history"
+            android:title="Workout history" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibration_notification"
+            android:summary="Use vibration notifications"
+            android:title="Vibration" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sound_notification"
+            android:summary="Use sound notification"
+            android:title="Sound" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
