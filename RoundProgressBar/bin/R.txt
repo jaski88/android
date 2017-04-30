@@ -1,0 +1,11 @@
+int attr background 0x7f010001
+int attr foreground 0x7f010000
+int attr progress 0x7f010002
+int drawable ic_launcher 0x7f020000
+int string app_name 0x7f030000
+int style AppBaseTheme 0x7f040000
+int style AppTheme 0x7f040001
+int[] styleable RoundProgressBar { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable RoundProgressBar_background 1
+int styleable RoundProgressBar_foreground 0
+int styleable RoundProgressBar_progress 2
